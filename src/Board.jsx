@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Category from './Category'
 import './board.css'
+import BASE_URL from "../config";
 
 function Board(){
     const [categories, setCategories] = useState([])
@@ -12,14 +13,14 @@ function Board(){
         let offset = Math.floor(Math.random() * 28175) + 1
 
         // Fetch the categories from the API.
-        const categoryUrl = `http://localhost:5500/api/categories?count=6&offset=${offset}`
+        const categoryUrl = `${BASE_URL}/api/categories?count=6&offset=${offset}`
 
         const categoryResponse = await fetch(categoryUrl)
         const categoryData = await categoryResponse.json()
 
         // Fetch the clues for each category.   
         const categoriesWithClues = await Promise.all(categoryData.map(async (category) => {
-          const clueUrl = `http://localhost:5500/api/clues?category=${category.id}`
+          const clueUrl = `${BASE_URL}/api/clues?category=${category.id}`
           const clueResponse = await fetch(clueUrl)
           const clueData = await clueResponse.json()
 
