@@ -17,7 +17,7 @@ Created a fun game of Jeopardy using the JService API. This README provides an o
 
 ## Optimizations
 
-When I improve this project, I would love to add more animations such as for each time a card is flipped.
+When I improve this project, I would love to add more animations for each card.
 
 
 ## Installation
