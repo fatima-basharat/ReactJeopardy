@@ -1,7 +1,7 @@
 # ReactJeopardy
 Created a fun game of Jeopardy using the JService API. This README provides an overview of the project and how to get it running.
 
-
+<img width="100%" alt="jeopardy" src="https://github.com/fatima-basharat/ReactJeopardy/assets/117535181/bb1dd77c-4509-4126-a751-c9413b3b0bff">
 
 ## Tech used:
 
