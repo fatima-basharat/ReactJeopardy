@@ -9,8 +9,8 @@ Created a fun game of Jeopardy using the JService API. This README provides an o
   <a href="https://vitejs.dev/" target="_blank">
     <img src="https://img.shields.io/static/v1?&style=flat&logo=VITE&logoColor=white&labelColor=AD9D90&label=&message=VITE&color=AD9D90"/>
   </a>
-  <a href="https://www.mongodb.com/docs/" target="_blank">
-    <img src="https://react.dev/"/>
+  <a href="https://react.dev/" target="_blank">
+    <img src="https://img.shields.io/static/v1?&style=flat&logo=react&logoColor=white&labelColor=AD9D90&label=&message=REACT&color=AD9D90"/>
   </a>
 </div>
 
