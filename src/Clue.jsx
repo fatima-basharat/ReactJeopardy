@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-//import './clue.css'
+import './clue.css'
 
 function Clue({ value, clue }) {
   const [stage, setStage] = useState(0);
